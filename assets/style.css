@@ -1,0 +1,24 @@
+.cell {
+  display: inline-block;
+
+  border: 1px solid;
+  text-align: center;
+  height: 2rem;
+  width: 2rem;
+  margin: 0.5rem;
+  border-radius: 50%;
+}
+
+.highlight {
+  background-color: #46c6e6;
+}
+
+body {
+  margin: 10rem;
+}
+#randBtn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
